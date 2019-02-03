@@ -1,0 +1,16 @@
+query {
+    hello
+    name
+    location
+    bio
+    personAge
+    id
+    isEmployeed
+    salary
+    
+    title
+    price
+    releaseYear
+    rating
+    inStock
+  }

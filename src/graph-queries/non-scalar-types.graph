@@ -1,0 +1,36 @@
+query {
+  hello
+  name
+  location
+  bio
+  personAge
+  id
+  isEmployeed
+  salary
+  
+  title
+  price
+  releaseYear
+  rating
+  inStock
+  
+ me {
+ 	 id
+ 	 name
+   email
+	}
+  
+  post {
+    id
+    body
+    published
+  }
+  # greeting(name: "tejas")  
+  
+  greeting
+  
+  add(a:1, b:2.23)
+  
+  grades
+  addMe(numbers: [1,5,10,2])
+}
