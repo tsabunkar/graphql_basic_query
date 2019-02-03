@@ -1,0 +1,57 @@
+query {
+  hello
+  name
+  location
+  bio
+  personAge
+  id
+  isEmployeed
+  salary
+  
+  title
+  price
+  releaseYear
+  rating
+  inStock
+  
+ me {
+ 	 id
+ 	 name
+   email
+	}
+  
+  post {
+    id
+    body 
+    published
+  }
+  # greeting(name: "tejas")  
+  
+  greeting
+  
+  add(a:1, b:2.23)
+  
+  grades
+  addMe(numbers: [1,5,10,2])
+  users {
+    id
+    name
+  }
+  searchUsers(queryFor: "T"){
+    name
+    email
+  }
+  
+  # posts {
+  #   id
+  #   title
+  #   body
+  # }
+  
+  posts(searchFor: "j") {
+    id
+    title
+  }
+  
+  
+}
